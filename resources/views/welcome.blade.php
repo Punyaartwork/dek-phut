@@ -27,7 +27,7 @@
                 <img class="d-block mx-auto mb-4" src="https://i.ibb.co/DLRmtYv/lotus-2.png" alt="" width="72" height="72">
                 <h1 class="display-5 fw-bold text-body-emphasis">เด็กพุทธ</h1>
                 <div class="col-lg-6 mx-auto">
-                  <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                  <p class="lead mb-4">เด็ก คือ ผู้ที่ต้องการเติบโต พร้อมที่จะเรียนรู้อยู่เสมอ<br/>ส่วนคำว่า พุทธ ในที่นี้ คือ การตื่นรู้ การดำเนินชีวิตตามคำสอนของพระพุทธศาสนา<br/>ดังนั้น เด็กพุทธ จึงหมายถึง ผู้ที่พร้อมจะเติบโตและเรียนรู้ในวิถีของพระพุทธศาสนา<br/>เป็นตัวแทนของคนรุ่นใหม่ที่เข้ามาสู่ทางธรรม<br/>เพื่อสร้างสังคมสีขาวให้เกิดขึ้นจริง</p>
                   <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                     <button type="button" onclick="window.location='{{ url('/donations') }}'" class="btn btn-lg px-4 gap-3" style="background:#F9322C;color:#ffffff">สมัครเป็นสมาชิก</button>
                     <button type="button" class="btn btn-outline-secondary btn-lg px-4">ดูโครงการ</button>
