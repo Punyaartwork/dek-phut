@@ -29,8 +29,8 @@
                 <div class="col-lg-6 mx-auto">
                   <p class="lead mb-4">เด็ก คือ ผู้ที่ต้องการเติบโต พร้อมที่จะเรียนรู้อยู่เสมอ<br/>ส่วนคำว่า พุทธ ในที่นี้ คือ การตื่นรู้ การดำเนินชีวิตตามคำสอนของพระพุทธศาสนา<br/>ดังนั้น เด็กพุทธ จึงหมายถึง ผู้ที่พร้อมจะเติบโตและเรียนรู้ในวิถีของพระพุทธศาสนา<br/>เป็นตัวแทนของคนรุ่นใหม่ที่เข้ามาสู่ทางธรรม<br/>เพื่อสร้างสังคมสีขาวให้เกิดขึ้นจริง</p>
                   <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" onclick="window.location='{{ url('/donations') }}'" class="btn btn-lg px-4 gap-3" style="background:#F9322C;color:#ffffff">สมัครเป็นสมาชิก</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">ดูโครงการ</button>
+                    <button type="button" class="btn btn-lg px-4 gap-3" style="background:#F9322C;color:#ffffff">สมัครเป็นสมาชิก</button>
+                    <button type="button" onclick="window.location='{{ url('/donations') }}'" class="btn btn-outline-secondary btn-lg px-4">ดูโครงการ</button>
                   </div>
                 </div>
               </div>
@@ -40,14 +40,14 @@
                 <div class="col-md-6">
                   <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                      <strong class="d-inline-block mb-2 text-primary-emphasis">World</strong>
-                      <h3 class="mb-0">Featured post</h3>
-                      <div class="mb-1 text-body-secondary">Nov 12</div>
-                      <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                      <strong class="d-inline-block mb-2 text-primary-emphasis">แนวคิด</strong>
+                      <h3 class="mb-0">เด็กพุทธไม่ใช่ชาวพุทธ ?</h3>
+                      <div class="mb-1 text-body-secondary">20 กรกฎาคม</div>
+                      <p class="card-text mb-auto">เด็กพุทธ คือ ใครก็ตามที่ต้องการจะเรียนรู้เรื่องราวเกี่ยวกับพระพุทธศาสนา ไม่ได้บังคับให้นับถือแต่อย่างใด</p>
+                      {{-- <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
                         Continue reading
                         <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-                      </a>
+                      </a> --}}
                     </div>
                     <div class="col-auto d-none d-lg-block">
                       <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -57,14 +57,14 @@
                 <div class="col-md-6">
                   <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                      <strong class="d-inline-block mb-2 text-success-emphasis">Design</strong>
-                      <h3 class="mb-0">Post title</h3>
-                      <div class="mb-1 text-body-secondary">Nov 11</div>
-                      <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                      <strong class="d-inline-block mb-2 text-success-emphasis">แนวคิด</strong>
+                      <h3 class="mb-0">อยากจะรู้จักพุทธ</h3>
+                      <div class="mb-1 text-body-secondary">20 กรกฎาคม</div>
+                      <p class="mb-auto">พระพุทธศาสนา มีความน่าสนใจอย่างหนึ่ง คือ การที่คำสอนและปรัญชาของพุทธ ถูกแทรกแซงอยู่ทุกศาสตร์บนโลก ? เราอยากเรียนรู้ให้ได้ว่า พุทธ เปลี่ยนโลกนี้ และเปลี่ยนวิถีชีวิตของเราอย่างไรได้บ้าง ?</p>
+                      {{-- <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
                         Continue reading
                         <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-                      </a>
+                      </a> --}}
                     </div>
                     <div class="col-auto d-none d-lg-block">
                       <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
