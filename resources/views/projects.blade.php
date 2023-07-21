@@ -38,6 +38,37 @@
                   </div>
                 </div>
               </div>
+              <div class="mx-auto" style="max-width: 900px;">
+                
+                <div class="card mb-3 m-3 text-center" style="
+                border: 0px;
+            ">
+                  <img class="card-img" alt="100%x270" src="https://i.ibb.co/3kT5rDP/project-7.png" data-holder-rendered="true" style="height: 300px; width: 100%; display: block;  object-fit: none; /* Do not scale the image */
+                  object-position: center">
+                  <div class="card-img-overlay">
+                    <h3 class="card-title">กรอกศัพท์ลงแอพ PaliLab</h3>
+                    <p class="card-text">ร่วมงานอาสากรอกศัพท์ธรรมบทภาค 1 - 8 ลงในแอพบาลี เพื่อผลักดันให้เทคโนโลยีด้านการศึกษาในวงการพระพุทธศาสนาเกิดขึ้น</p>
+                    <a href="#" class="btn" 
+                    style="--bs-btn-color: #fff;
+                    --bs-btn-bg: #F9322C;
+                    --bs-btn-border-color: #F9322C;
+                    --bs-btn-hover-color: #fff;
+                    --bs-btn-hover-bg: #dd2621;
+                    --bs-btn-hover-border-color: #dd2621;
+                    --bs-btn-focus-shadow-rgb: 49,132,253;
+                    --bs-btn-active-color: #fff;
+                    --bs-btn-active-bg: #dd2621;
+                    --bs-btn-active-border-color: #dd2621;
+                    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+                    --bs-btn-disabled-color: #fff;
+                    --bs-btn-disabled-bg: #F9322C;
+                    --bs-btn-disabled-border-color: #F9322C;">รับงานอาสา</a>
+                    {{-- <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">Last updated 3 mins ago</p> --}}
+                  </div>
+                </div>
+              </div>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
         </body>
 </html>

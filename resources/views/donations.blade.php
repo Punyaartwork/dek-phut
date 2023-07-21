@@ -34,38 +34,38 @@
 
               <div class="mx-auto" style="max-width: 800px;">
                 <div class="card mb-3 m-3">
-                  <img class="card-img-top" src="https://i.ibb.co/KzGWt7Y/header-palilab.png" alt="Card image cap">
+                  <img class="card-img-top" src="https://i.ibb.co/7r69pKC/header-palilab-2.png" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">PaliLab Application (แอพบาลี)</h5>
                     <p class="card-text">แอปพลิเคชันที่ทำให้ภาษาบาลีสนุก ง่าย ทันสมัย ไม่ตกยุค เน้นการสร้างความคุ้นเคยกับภาษาบาลี มีเนื้อหาสำหรับนักศึกษาภาษาบาลีประโยค 1-3  <small style="color:var(--bs-code-color)">| สถานะ:<i style="color:#1357af">กำลังพัฒนา</i> | หมวดหมู่:การศึกษา</small></p>
                     <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 85%;background-color:#1357af" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">80%</div>
+                      <div class="progress-bar" role="progressbar" style="width: 85%;background-color:#F9322C" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">80%</div>
                     </div>
-                    <p class="card-text d-flex justify-content-between"><small class="text-muted">บริจาคแล้ว 55,635 บาท</small><small style="color:#1357af">ยอด 65,350 บาท</small></p>
+                    <p class="card-text d-flex justify-content-between"><small class="text-muted">บริจาคแล้ว 55,635 บาท</small><small style="color:#F9322C">ยอด 65,350 บาท</small></p>
                     {{-- <p class="card-text text-muted">สถานะ : เตรียมจะพัฒนาต่อ , หมวดหมู่ : สมาธิ<br/>ขั้นตอนการทำงาน<br/>1. นำเงินนี้ไปว่าจ้างโปรแกรมเมอร์<br/>2. นำเงินนี้ไปว่าจ้างโปรแกรมเมอร์<br/>3. นำเงินนี้ไปว่าจ้างโปรแกรมเมอร์<br/>4. นำเงินนี้ไปว่าจ้างโปรแกรมเมอร์</p> --}}
                   </div>
                 </div>
                 <div class="card mb-3 m-3">
-                  <img class="card-img-top" src="https://i.ibb.co/4JP5Z2r/header-jaimyapp.png" alt="Card image cap">
+                  <img class="card-img-top" src="https://i.ibb.co/CQYxsRL/header-jaimyapp-2.png" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">JaiMy Application (แอพใจมาย)</h5>
                     <p class="card-text">แอพสำหรับคนห่างวัด แต่ใจยังนึกถึง *รวบรวมธรรมะ ที่จำเป็นต่อชีวิตประจำวัน *อัพเดตข่าวสาร บทความเกี่ยวกับการดูแลใจ *มีนำนั่งสมาธิ ไว้เวลาต้องการความสงบ  <small style="color:var(--bs-code-color)">| สถานะ:<i style="color:#777777">เตรียมจะพัฒนาต่อ</i> | หมวดหมู่:สมาธิ</small></p>
                     <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 15%;background-color:#005f5f" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">0%</div>
+                      <div class="progress-bar" role="progressbar" style="width: 15%;background-color:#F9322C" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">0%</div>
                     </div>
-                    <p class="card-text d-flex justify-content-between"><small class="text-muted">บริจาคแล้ว 0 บาท</small><small style="color:#005f5f">ยอด 0 บาท</small></p>
+                    <p class="card-text d-flex justify-content-between"><small class="text-muted">บริจาคแล้ว 0 บาท</small><small style="color:#F9322C">ยอด 0 บาท</small></p>
                     {{-- <p class="card-text text-muted">สถานะ : เตรียมจะพัฒนาต่อ , หมวดหมู่ : สมาธิ<br/>ขั้นตอนการทำงาน<br/>1. นำเงินนี้ไปว่าจ้างโปรแกรมเมอร์<br/>2. นำเงินนี้ไปว่าจ้างโปรแกรมเมอร์<br/>3. นำเงินนี้ไปว่าจ้างโปรแกรมเมอร์<br/>4. นำเงินนี้ไปว่าจ้างโปรแกรมเมอร์</p> --}}
                   </div>
                 </div>
                 <div class="card mb-3 m-3">
-                  <img class="card-img-top" src="https://i.ibb.co/5Bv2zqd/header-boonna.png" alt="Card image cap">
+                  <img class="card-img-top" src="https://i.ibb.co/hydQvvx/header-boonna-2.png" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">บุญอีเวนต์ Application (แอพนึกถึงบุญ)</h5>
                     <p class="card-text">แอพสำหรับคนห่างวัด แต่ใจยังนึกถึง *รวบรวมธรรมะ ที่จำเป็นต่อชีวิตประจำวัน *อัพเดตข่าวสาร บทความเกี่ยวกับการดูแลใจ *มีนำนั่งสมาธิ ไว้เวลาต้องการความสงบ  <small style="color:var(--bs-code-color)">| สถานะ:<i style="color:#777777">รอทีมงาน</i> | หมวดหมู่:ศาสนา</small></p>
                     <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 15%;background-color:#8f6124" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">0%</div>
+                      <div class="progress-bar" role="progressbar" style="width: 15%;background-color:#F9322C" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">0%</div>
                     </div>
-                    <p class="card-text d-flex justify-content-between"><small class="text-muted">บริจาคแล้ว 0 บาท</small><small class="text-muted">ยอด 0 บาท</small></p>
+                    <p class="card-text d-flex justify-content-between"><small class="text-muted">บริจาคแล้ว 0 บาท</small><small style="color:#F9322C">ยอด 0 บาท</small></p>
                     {{-- <p class="card-text text-muted">สถานะ : เตรียมจะพัฒนาต่อ , หมวดหมู่ : สมาธิ<br/>ขั้นตอนการทำงาน<br/>1. นำเงินนี้ไปว่าจ้างโปรแกรมเมอร์<br/>2. นำเงินนี้ไปว่าจ้างโปรแกรมเมอร์<br/>3. นำเงินนี้ไปว่าจ้างโปรแกรมเมอร์<br/>4. นำเงินนี้ไปว่าจ้างโปรแกรมเมอร์</p> --}}
                   </div>
                 </div>
