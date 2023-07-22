@@ -27,7 +27,7 @@
                 <div class="container py-5">
                   <h1 class="text-body-emphasis">ร่วมผลักดันโปรเจคเด็กพุทธให้เกิดขึ้น</h1>
                   <p class="col-lg-8 mx-auto lead">
-                    สนับสนุนเราให้ทำงานสุดกำลังและยั่งยืน above and makes its background edge-to-edge with a <code>.container</code> inside to align content. Similar to above, it's been recreated with built-in grid and utility classes.
+                    สนับสนุนเราให้ทำงานสุดกำลังและยั่งยืน... เด็กพุทธ คือ กลุ่มคนที่ต้องการจะทำงานเพื่อสร้างการเรียนรู้ใหม่ ๆ เกี่ยวกับ <code>พระพุทธศาสนา</code> ที่ขับเคลื่อนด้วยเทคโนโลยี แต่ทั้งนี้ทั้งนั้น ฝันเราจะไม่เป็นจริงได้เรา เมื่อเราไม่ได้รับการสนับสนุนที่มากพอจะผลักดันโปรเจคต่าง ๆ ให้เกิดขึ้นได้
                   </p>
                 </div>
               </div>

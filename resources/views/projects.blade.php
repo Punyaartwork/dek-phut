@@ -30,7 +30,7 @@
                   </div>
                   <div class="col-lg-6">
                     <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">ใช้พลังและความสามารถ<br>เปลี่ยน Mindset สังคม</h1>
-                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <p class="lead">ร่วมงานอาสาสร้างสรรค์โปรเจคที่มาจากเด็กพุทธให้เกิดขึ้นจริง ผ่านการใช้พลังกายกับพลังใจที่เต็มเปี่ยม และความสามารถที่มีอยู่ ทั้งนี้โปรเจคของเราส่วนใหญ่ล้วนแต่เป็นการทำเพื่อต้องการจะเปลี่ยน Mindset ของคนในสังคมให้เห็นถึงความสำคัญของการเรียนรู้พระพุทธศาสนาในยุคปัจจุบัน มาช่วยกัน! ทำให้เกิดขึ้นจริงกันเถอะ!</p>
                     {{-- <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                       <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
                       <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
