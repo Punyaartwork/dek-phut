@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\JSONController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,6 +27,13 @@ Route::get('/projects', function () {
     return view('projects');
 });
 
+Route::get('/projects/1', function () {
+    return view('subjects');
+});
+
 Route::get('/register', function () {
     return view('register');
 });
+
+Route::get('laravel-json', [JsonController::class, 'index']);
+Route::post('json-file-download', [JsonController::class, 'download']);

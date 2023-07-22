@@ -1,0 +1,1062 @@
+[
+    {
+      "id": 1,
+      "subjects": [
+        {
+          "word": "มโนปุพฺพงฺคมา",
+          "isMeaning": true,
+          "meaning": "มีใจเป็นสภาพถึงก่อน",
+          "type": "นามนาม",
+          "matter": "มีใจเป็นใหญ่",
+          "detail": ""
+        },
+        {
+          "word": "ธมฺมา",
+          "isMeaning": true,
+          "meaning": "อ.ธรรม ท.",
+          "type": "นามนาม",
+          "matter": "ธรรมะ",
+          "detail": ""
+        },
+        {
+          "word": "มโนเสฏฺฐา",
+          "isMeaning": true,
+          "meaning": "มีใจประเสริฐที่สุด",
+          "type": "นามนาม",
+          "matter": "มีใจประเสริฐที่สุด",
+          "detail": ""
+        },
+        {
+          "word": "มโนมยา,",
+          "isMeaning": true,
+          "meaning": "สำเร็จด้วยใจ",
+          "type": "นามนาม",
+          "matter": "สำเร็จด้วยใจ",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "อ.อันถามว่า ว่า อ.พระธรรมเทศนา นี้ ว่า อ. ธรรม ท. มีใจเป็นสภาพถึงก่อน มีใจประเสริฐที่สุด สำเร็จด้วยใจ"
+    },
+    {
+      "id": 2,
+      "subjects": [
+        {
+          "word": "มนสา",
+          "isMeaning": true,
+          "meaning": "มีใจ",
+          "type": "นามนาม",
+          "matter": "ใจ",
+          "detail": ""
+        },
+        {
+          "word": "เจ",
+          "isMeaning": true,
+          "meaning": "หากว่า",
+          "type": "นิบาต",
+          "matter": "หากว่า",
+          "detail": ""
+        },
+        {
+          "word": "ปทุฏฺเฐน",
+          "isMeaning": true,
+          "meaning": "อันโทษประทุษร้ายแล้ว",
+          "type": "นามนาม",
+          "matter": "ถูกโทษประทุษร้าย",
+          "detail": ""
+        },
+        {
+          "word": "ภาสติ",
+          "isMeaning": true,
+          "meaning": "กล่าวอยู่",
+          "type": "อาขยาต",
+          "matter": "กล่าว",
+          "detail": ""
+        },
+        {
+          "word": "วา",
+          "isMeaning": true,
+          "meaning": " หรือ หรือว่า",
+          "type": "นิบาต",
+          "matter": "หรือ",
+          "detail": ""
+        },
+        {
+          "word": "กโรติ",
+          "isMeaning": true,
+          "meaning": "ทำอยู่",
+          "type": "อาขยาต",
+          "matter": "ทำ",
+          "detail": ""
+        },
+        {
+          "word": "วา,",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "หากว่า อ.บุคคล มีใจอันโทษประทุษร้ายแล้ว กล่าวอยู่ หรือ หรือว่า กระทำอยู่ ไซร้"
+    },
+    {
+      "id": 3,
+      "subjects": [
+        {
+          "word": "ตโต",
+          "isMeaning": true,
+          "meaning": "เพราะทุจจริต มีอย่าง ๓ นั้น",
+          "type": "สัพพนาม",
+          "matter": "...นั้น",
+          "detail": ""
+        },
+        {
+          "word": "นํ",
+          "isMeaning": true,
+          "meaning": "ซึ่งบุคคลนั้น",
+          "type": "สัพพนาม",
+          "matter": "ซึ่ง...นั้น",
+          "detail": ""
+        },
+        {
+          "word": "ทุกฺขมเนฺวติ",
+          "isMeaning": true,
+          "meaning": "อ.ทุกข์..ย่อมไปตาม",
+          "type": "สนธิ",
+          "matter": "ทุกฺขํ + อเนฺวติ",
+          "detail": ""
+        },
+        {
+          "word": "จกฺกํว",
+          "isMeaning": true,
+          "meaning": "เพียงดัง อ.ล้อหมุนไปตามอยู่",
+          "type": "สนธิ",
+          "matter": "จกฺกํ + ว",
+          "detail": ""
+        },
+        {
+          "word": "วหโต",
+          "isMeaning": true,
+          "meaning": "ตัวนำไปอยู่",
+          "type": "กิริยากิตก์",
+          "matter": "นำไป",
+          "detail": ""
+        },
+        {
+          "word": "ปทนฺติ",
+          "isMeaning": true,
+          "meaning": "ซึ่งรอยเท้า",
+          "type": "สนธิ",
+          "matter": "ปทํ + อิติ",
+          "detail": ""
+        },
+        {
+          "word": "ฯ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "อ.ทุกข์ ย่อมไปตาม ซึ่งบุคคล นั้น เพราะทุจจริต มีอย่าง ๓ นั้น เพียงดัง อ.ล้อหมุนไปตามอยู่ ซึ่งรอยเท้า แห่งโคตัวเนื่องด้วยกำลังตัวนำไปอย่ซึ่งแอก ดังนี้ อันพระศาสดา ตรัสแล้ว ในที่ไหน ดังนี้ ฯ"
+    },
+    {
+      "id": 4,
+      "subjects": [
+        {
+          "word": "อยํ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        },
+        {
+          "word": "ธมฺมเทสนา",
+          "isMeaning": true,
+          "meaning": "อ.พระธรรมเทศนา",
+          "type": "นามนาม",
+          "matter": "ธรรมเทศนา",
+          "detail": ""
+        },
+        {
+          "word": "กตฺถ",
+          "isMeaning": true,
+          "meaning": "ในที่ไหน",
+          "type": "สัพพนาม",
+          "matter": "ที่ไหน",
+          "detail": ""
+        },
+        {
+          "word": "ภาสิตาติ",
+          "isMeaning": true,
+          "meaning": "อันพระศาสนา ตรัสแล้ว",
+          "type": "สนธิ",
+          "matter": "ภาสิตา + อิติ",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "อันพระศาสดา ตรัสแล้ว ในที่ไหน ดังนี้ฯ"
+    },
+    {
+      "id": 5,
+      "subjects": [
+        {
+          "word": "“สาวตฺถิยํ”",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        },
+        {
+          "word": "ฯ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "อ.อันตอบ ว่า อ. พระธรรมเทศนา นี้ อันพระศาสดา ตรัสแล้วในเมืองชื่อว่าสาวัตถี ดังนี้ ฯ"
+    },
+    {
+      "id": 6,
+      "subjects": [
+        {
+          "word": "“กํ อารพฺภาติ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        },
+        {
+          "word": "ฯ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "อ.อันถาม ว่า อ. พระธรรมเทศนา นี้ อันพระศาสดา ทรงปรารภ ซึ่งใคร ตรัสแล้ว ในเมืองชื่อว่าสาวัตถี ดังนี้ ฯ"
+    },
+    {
+      "id": 7,
+      "subjects": [
+        {
+          "word": "“จกฺขุปาลตฺเถรํ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        },
+        {
+          "word": "ฯ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "อ.อันตอบ ว่า อ.พระธรรมเทศนา นี้ อันพระศาสดา ทรงปรารภ ซึ่งพระเถระชื่อว่าจักขุบาล ตรัสแล้ว ในเมืองชื่อว่า สาวัตถี ดังนี้ ฯ"
+    },
+    {
+      "id": 8,
+      "subjects": [
+        {
+          "word": "สาวตฺถิยํ",
+          "isMeaning": true,
+          "meaning": "ในเมืองชื่อว่าสาวัตถี",
+          "type": "นามนาม",
+          "matter": "เมืองสาวัตถี",
+          "detail": ""
+        },
+        {
+          "word": "กิร",
+          "isMeaning": true,
+          "meaning": "ได้ยินว่า",
+          "type": "อาขยาต",
+          "matter": "ข่าวว่า",
+          "detail": ""
+        },
+        {
+          "word": "มหาสุวณฺโณ",
+          "isMeaning": true,
+          "meaning": "มหาสุวรรณ",
+          "type": "นามนาม",
+          "matter": "มหาสุวรรณ",
+          "detail": ""
+        },
+        {
+          "word": "นาม",
+          "isMeaning": true,
+          "meaning": "ชื่อว่า",
+          "type": "นิบาต",
+          "matter": "ชื่อว่า",
+          "detail": ""
+        },
+        {
+          "word": "กุฏุมฺพิโก",
+          "isMeaning": true,
+          "meaning": "เป็นผู้มีขุมทรัพย์",
+          "type": "นามนาม",
+          "matter": "ผู้มีขุมทรัพย์",
+          "detail": ""
+        },
+        {
+          "word": "อโหสิ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        },
+        {
+          "word": "อฑฺโฒ",
+          "isMeaning": true,
+          "meaning": "เป็นผู้มั่งคั่ง",
+          "type": "นามนาม",
+          "matter": "ผู้มั่งคั่ง",
+          "detail": ""
+        },
+        {
+          "word": "มหทฺธโน",
+          "isMeaning": true,
+          "meaning": "เป็นผู้มีทรัพย์มาก",
+          "type": "นามนาม",
+          "matter": "ผู้มีทรัพย์มาก",
+          "detail": ""
+        },
+        {
+          "word": "มหาโภโค",
+          "isMeaning": true,
+          "meaning": "เป็นผู้มีโภคมาก",
+          "type": "นามนาม",
+          "matter": "ผู้มีโภคมาก",
+          "detail": ""
+        },
+        {
+          "word": "อปุตฺตโก",
+          "isMeaning": true,
+          "meaning": "เป็นผู้มีบุตรหามิได้",
+          "type": "นามนาม",
+          "matter": "ผู้มีบุตรหามิได้",
+          "detail": ""
+        },
+        {
+          "word": "ฯ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "ได้ยินว่า อ. เศรษฐี ชื่อว่ามหาสุวรรณ เป็นผู้มีขุมทรัพย์ เป็นผู้มั่งคั่ง เป็นผู้มีทรัพย์มาก เป็นผู้มีโภคมาก เป็นผู้มีบุตรหามิได้ ได้มีแล้ว ในเมืองชื่อว่าสาวัตถี ฯ"
+    },
+    {
+      "id": 9,
+      "subjects": [
+        {
+          "word": "โส",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        },
+        {
+          "word": "เอกทิวสํ",
+          "isMeaning": true,
+          "meaning": "ในวันหนึ่ง",
+          "type": "นิบาต",
+          "matter": "วันหนึ่ง",
+          "detail": ""
+        },
+        {
+          "word": "นหานติตฺถํ",
+          "isMeaning": true,
+          "meaning": "สู่ท่าเป็นที่อาบ",
+          "type": "นามนาม",
+          "matter": "ท่าอาบน้ำ",
+          "detail": ""
+        },
+        {
+          "word": "คนฺตฺวา",
+          "isMeaning": true,
+          "meaning": "ไปแล้ว",
+          "type": "กิริยากิตก์",
+          "matter": "ไป",
+          "detail": ""
+        },
+        {
+          "word": "นหาตฺวา",
+          "isMeaning": true,
+          "meaning": "อาบแล้ว",
+          "type": "กิริยากิตก์",
+          "matter": "อาบน้ำ",
+          "detail": ""
+        },
+        {
+          "word": "อาคจฺฉนฺโต",
+          "isMeaning": true,
+          "meaning": "ไปอยู่",
+          "type": "กิริยากิตก์",
+          "matter": "มา",
+          "detail": ""
+        },
+        {
+          "word": "อนฺตรามคฺเค",
+          "isMeaning": true,
+          "meaning": "ในระหว่างแห่งหนทาง",
+          "type": "นามนาม",
+          "matter": "ในระหว่างทาง",
+          "detail": ""
+        },
+        {
+          "word": "สมฺปนฺนสาขํ",
+          "isMeaning": true,
+          "meaning": "มีกิ่งอันถึงพร้อมแล้ว",
+          "type": "นามนาม",
+          "matter": "กิ่งเยอะ",
+          "detail": ""
+        },
+        {
+          "word": "เอกํ",
+          "isMeaning": true,
+          "meaning": "ต้นหนึ่ง",
+          "type": "นามนาม",
+          "matter": "หนึ่ง",
+          "detail": ""
+        },
+        {
+          "word": "วนปฺปตึ",
+          "isMeaning": true,
+          "meaning": "ซึ่งต้นไม้อันเป็นเจ้าแห่งป่า",
+          "type": "นามนาม",
+          "matter": "ต้นไม้ประจำป่า",
+          "detail": ""
+        },
+        {
+          "word": "ทิสฺวา",
+          "isMeaning": true,
+          "meaning": "เห็นแล้ว",
+          "type": "กิริยากิตก์",
+          "matter": "เห็น",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "ในวันหนึ่ง อ.เศรษฐีนั้นไปแล้ว สู่ท่าเป็นที่อาบ อาบแล้ว มาอยู่ เห็นแล้ว ซึ่งต้นไม้อันเป็นเจ้าแห่งป่า ต้นหนึ่ง มีกิ่งอันถึงพร้อมแล้ว ในระหว่างแห่งหนทาง"
+    },
+    {
+      "id": 10,
+      "subjects": [
+        {
+          "word": "“อยํ",
+          "isMeaning": true,
+          "meaning": "ต้นไม้นี้",
+          "type": "สัพพนาม",
+          "matter": "นี้",
+          "detail": ""
+        },
+        {
+          "word": "มเหสกฺขาย",
+          "isMeaning": true,
+          "meaning": "ผู้มีศักดิ์ใหญ่",
+          "type": "นามนาม",
+          "matter": "ศักดิ์ใหญ่",
+          "detail": ""
+        },
+        {
+          "word": "เทวตาย",
+          "isMeaning": true,
+          "meaning": "อันเทวดา",
+          "type": "นามนาม",
+          "matter": "เทวดา",
+          "detail": ""
+        },
+        {
+          "word": "ปริคฺคหิโต",
+          "isMeaning": true,
+          "meaning": "ถือเอารอบแล้ว",
+          "type": "กิริยากิตก์",
+          "matter": "ยึดเอา",
+          "detail": ""
+        },
+        {
+          "word": "ภวิสฺสตีติ",
+          "isMeaning": true,
+          "meaning": "จักเป็น ดังนี้",
+          "type": "สนธิ",
+          "matter": "ภวิสฺสติ + อิติ",
+          "detail": ""
+        },
+        {
+          "word": "ตสฺส",
+          "isMeaning": true,
+          "meaning": "แห่งต้นไม้อันเป็นเจ้าแห่งป่านั้น",
+          "type": "สัพพนาม",
+          "matter": "นั้น",
+          "detail": ""
+        },
+        {
+          "word": "เหฏฺฐาภาคํ",
+          "isMeaning": true,
+          "meaning": "ซึ่งส่วนภายใต้",
+          "type": "นามนาม",
+          "matter": "ใต้โคนต้น",
+          "detail": ""
+        },
+        {
+          "word": "โสธาเปตฺวา",
+          "isMeaning": true,
+          "meaning": "ให้ชำระแล้ว",
+          "type": "กิริยากิตก์",
+          "matter": "ชำระ",
+          "detail": ""
+        },
+        {
+          "word": "ปาการปริกฺเขปํ",
+          "isMeaning": true,
+          "meaning": "การแวดล้อมด้วยกำแพง",
+          "type": "นามนาม",
+          "matter": "ล้อมกำแพง",
+          "detail": ""
+        },
+        {
+          "word": "การาเปตฺวา",
+          "isMeaning": true,
+          "meaning": "ให้กระทำแล้ว",
+          "type": "กิริยากิตก์",
+          "matter": "ทำ",
+          "detail": ""
+        },
+        {
+          "word": "วาลุกํ",
+          "isMeaning": true,
+          "meaning": "ซึ่งทราย",
+          "type": "นามนาม",
+          "matter": "ทราย",
+          "detail": ""
+        },
+        {
+          "word": "โอกิราเปตฺวา",
+          "isMeaning": true,
+          "meaning": "ให้เกลี่ยลงแล้ว",
+          "type": "กิริยากิตก์",
+          "matter": "เกลี่ยลง",
+          "detail": ""
+        },
+        {
+          "word": "ธชปตากํ",
+          "isMeaning": true,
+          "meaning": "ซึ่งธงชัยและธงแผ่นผ้า",
+          "type": "นามนาม",
+          "matter": "ธงชัยและธงแผ่นผ้า",
+          "detail": ""
+        },
+        {
+          "word": "อุสฺสาเปตฺวา",
+          "isMeaning": true,
+          "meaning": "ให้ยกขึ้นแล้ว",
+          "type": "กิริยากิตก์",
+          "matter": "ยกขึ้น",
+          "detail": ""
+        },
+        {
+          "word": "วนปฺปตึ",
+          "isMeaning": true,
+          "meaning": "ซึ่งต้นไม้อันเป็นเจ้าแห่งป่า",
+          "type": "นามนาม",
+          "matter": "ต้นไม้ประจำป่า",
+          "detail": ""
+        },
+        {
+          "word": "อลงฺกริตฺวา",
+          "isMeaning": true,
+          "meaning": "กระทำให้พอแล้ว",
+          "type": "กิริยากิตก์",
+          "matter": "ตกแต่ง",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "คิดแล้ว ว่า อ.ต้นไม้ นี้ จักเป็นต้นไม้ อันเทวดา ผู้มีศักดิใหญ่ ถือเอารอบแล้ว จักเป็น ดังนี้ ยังบุคคล ให้ชำระแล้ว ซึ่งส่วนภายใต้ แห่งต้นไม้อันเป็นเจ้าแห่งป่านั้น ยังบุคคล ให้กระทำแล้ว ซึ่งการแวดล้อมด้วยกำแพง ยังบุคคล ให้เกลี่ยลงแล้ว ซึ่งทราย ยังบุคคล ให้ยกขึ้นแล้ว ซึ่งธงชัยและธงแผ่นผ้า กระทำให้พอแล้ว ซึ่งต้นไม้อันเป็นเจ้าแห่งป่า"
+    },
+    {
+      "id": 11,
+      "subjects": [
+        {
+          "word": "“ปุตฺตํ",
+          "isMeaning": true,
+          "meaning": "ซึ่งบุตร",
+          "type": "นามนาม",
+          "matter": "บุตร",
+          "detail": ""
+        },
+        {
+          "word": "วา",
+          "isMeaning": true,
+          "meaning": "หรือ หรือว่า",
+          "type": "นิบาต",
+          "matter": "หรือ",
+          "detail": ""
+        },
+        {
+          "word": "ธีตรํ",
+          "isMeaning": true,
+          "meaning": "ซึ่งธิดา",
+          "type": "นามนาม",
+          "matter": "ธิดา",
+          "detail": ""
+        },
+        {
+          "word": "วา",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        },
+        {
+          "word": "ลภิตฺวา",
+          "isMeaning": true,
+          "meaning": "ได้แล้ว",
+          "type": "กิริยากิตก์",
+          "matter": "ได้",
+          "detail": ""
+        },
+        {
+          "word": "ตุมฺหากํ",
+          "isMeaning": true,
+          "meaning": "แก่ท่าน ท.",
+          "type": "นามนาม",
+          "matter": "ท่าน",
+          "detail": ""
+        },
+        {
+          "word": "มหาสกฺการํ",
+          "isMeaning": true,
+          "meaning": "ซึ่งสักการะใหญ่",
+          "type": "นามนาม",
+          "matter": "สักการะใหญ่",
+          "detail": ""
+        },
+        {
+          "word": "กริสฺสามีติ",
+          "isMeaning": true,
+          "meaning": "จักกระทำ...ดังนี้",
+          "type": "สนธิ",
+          "matter": "กริสฺสามิ + อิติ",
+          "detail": ""
+        },
+        {
+          "word": "ปตฺถนํ",
+          "isMeaning": true,
+          "meaning": "ซึ่งความปรารถนา",
+          "type": "นามนาม",
+          "matter": "ความปรารถนา",
+          "detail": ""
+        },
+        {
+          "word": "กตฺวา",
+          "isMeaning": true,
+          "meaning": "กระทำแล้ว",
+          "type": "กิริยากิตก์",
+          "matter": "ทำ",
+          "detail": ""
+        },
+        {
+          "word": "ปกฺกามิ",
+          "isMeaning": true,
+          "meaning": "หลีกไปแล้ว",
+          "type": "อาขยาต",
+          "matter": "หลีกไป",
+          "detail": ""
+        },
+        {
+          "word": "ฯ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "กระทำแล้ว ซึ่งความปรารถนา ว่า อ. เรา ได้แล้ว ซึ่งบุตร หรือ หรือว่า ซึ่งธิดา จักกระทำ ซึ่งสักการะใหญ่ แก่ท่าน ท. ดังนี้ หลีกไปแล้ว ฯ"
+    },
+    {
+      "id": 12,
+      "subjects": [
+        {
+          "word": "อถสฺส",
+          "isMeaning": true,
+          "meaning": "ครั้งนั้น..ของเศรษฐีนั้น",
+          "type": "สนธิ",
+          "matter": "อถ + อสฺส",
+          "detail": ""
+        },
+        {
+          "word": "ภริยาย",
+          "isMeaning": true,
+          "meaning": "ของภรรยา",
+          "type": "นามนาม",
+          "matter": "ภรรยา",
+          "detail": ""
+        },
+        {
+          "word": "กุจฺฉิยํ",
+          "isMeaning": true,
+          "meaning": "ในท้อง",
+          "type": "นามนาม",
+          "matter": "ท้อง",
+          "detail": ""
+        },
+        {
+          "word": "คพฺโภ",
+          "isMeaning": true,
+          "meaning": "อ.สัตว์ผู้เกิดแล้วในครรภ์",
+          "type": "นามนาม",
+          "matter": "ครรภ์",
+          "detail": ""
+        },
+        {
+          "word": "ปติฏฺฐาสิ",
+          "isMeaning": true,
+          "meaning": "ตั้งอยู่เฉพาะแล้ว",
+          "type": "อาขยาต",
+          "matter": "ตั้งอยู่เฉพาะ",
+          "detail": ""
+        },
+        {
+          "word": "ฯ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "ครั้งนั้น อ.สัตว์ผู้เกิดแล้วในครรภ์ ตั้งอยู่เฉพาะแล้ว ในท้อง ของภรรยา ของเศรษฐีนั้นฯ"
+    },
+    {
+      "id": 13,
+      "subjects": [
+        {
+          "word": "โส",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        },
+        {
+          "word": "ตสฺสา",
+          "isMeaning": true,
+          "meaning": "ของภรรยานั้น",
+          "type": "สัพพนาม",
+          "matter": "นั้น",
+          "detail": ""
+        },
+        {
+          "word": "คพฺภปริหารํ",
+          "isMeaning": true,
+          "meaning": "ซึ่งเครื่องบริหารซึ่งครรภ์",
+          "type": "นามนาม",
+          "matter": "เครื่องบริหารซึ่งครรภ์",
+          "detail": ""
+        },
+        {
+          "word": "อทาสิ",
+          "isMeaning": true,
+          "meaning": "ได้ให้แล้ว",
+          "type": "อาขยาต",
+          "matter": "ให้",
+          "detail": ""
+        },
+        {
+          "word": "ฯ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "อ.เศรษฐี นั้น ได้ให้แล้ว ซึ่งเครื่องบริหารซึ่งครรภ์ แก่ภรรยา นั้น ฯ"
+    },
+    {
+      "id": 14,
+      "subjects": [
+        {
+          "word": "สา",
+          "isMeaning": true,
+          "meaning": "อ.ภรรยานั้น",
+          "type": "สัพพนาม",
+          "matter": "นั้น",
+          "detail": ""
+        },
+        {
+          "word": "ทสมาสจฺจเยน",
+          "isMeaning": true,
+          "meaning": "โดยกาลเป็นที่ล่วงไปแห่งเดือนสิบ",
+          "type": "นามนาม",
+          "matter": "ผ่านไปสิบเดือน",
+          "detail": ""
+        },
+        {
+          "word": "ปุตฺตํ",
+          "isMeaning": true,
+          "meaning": "ซึ่งบุตร",
+          "type": "นามนาม",
+          "matter": "บุตร",
+          "detail": ""
+        },
+        {
+          "word": "วิชายิ",
+          "isMeaning": true,
+          "meaning": "คลอดแล้ว",
+          "type": "อาขยาต",
+          "matter": "คลอด",
+          "detail": ""
+        },
+        {
+          "word": "ฯ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "อ.ภรรยานั้น คลอดแล้ว ซึ่งบุตร โดยกาลเป็นที่ล่วงไปแห่งเดือนสิบ ฯ"
+    },
+    {
+      "id": 15,
+      "subjects": [
+        {
+          "word": "เสฏฺฐี",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        },
+        {
+          "word": "อตฺตนา",
+          "isMeaning": true,
+          "meaning": "อันตน",
+          "type": "นามนาม",
+          "matter": "ตน",
+          "detail": ""
+        },
+        {
+          "word": "ปาลิตํ",
+          "isMeaning": true,
+          "meaning": "อัน...รักษาแล้ว",
+          "type": "กิริยากิตก์",
+          "matter": "รักษาแล้ว",
+          "detail": ""
+        },
+        {
+          "word": "วนปฺปตึ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        },
+        {
+          "word": "นิสฺสาย",
+          "isMeaning": true,
+          "meaning": "อาศัยแล้ว",
+          "type": "กิริยากิตก์",
+          "matter": "อาศัย",
+          "detail": ""
+        },
+        {
+          "word": "ลทฺธตฺตา",
+          "isMeaning": true,
+          "meaning": "เพราะความที่...ได้แล้ว",
+          "type": "ตัทธิต",
+          "matter": "เพราะการที่..ได้",
+          "detail": ""
+        },
+        {
+          "word": "ตสฺส",
+          "isMeaning": true,
+          "meaning": "แห่งบุตรนั้น",
+          "type": "สัพพนาม",
+          "matter": "นั้น",
+          "detail": ""
+        },
+        {
+          "word": "“ปาโลติ",
+          "isMeaning": true,
+          "meaning": "อ.ปาละ ดังนี้",
+          "type": "สนธิ",
+          "matter": "ปาโล + อิติ",
+          "detail": ""
+        },
+        {
+          "word": "นามํ",
+          "isMeaning": true,
+          "meaning": "ให้เป็นชื่อ",
+          "type": "นามนาม",
+          "matter": "ชื่อ",
+          "detail": ""
+        },
+        {
+          "word": "อกาสิ",
+          "isMeaning": true,
+          "meaning": "ได้กระทำแล้ว",
+          "type": "อาขยาต",
+          "matter": "ทำ",
+          "detail": ""
+        },
+        {
+          "word": "ฯ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "อ.เศรษฐี ได้กระทำแล้ว ซึ่งคำ ว่า อ.ปาละ ดังนี้ ให้เป็นชื่อ ของบุตรนั้น เพราะความที่ แห่งบุตรนั้น เป็นผู้อันตน อาศัยแล้ว ซึ่งต้นไม้อันเป็นเจ้าแห่งป่า อันอันตนรักษาแล้ว ได้แล้ว ฯ"
+    },
+    {
+      "id": 16,
+      "subjects": [
+        {
+          "word": "อปรภาเค",
+          "isMeaning": true,
+          "meaning": "ในกาลอันเป็นส่วนอื่นอีก",
+          "type": "นามนาม",
+          "matter": "ในเวลาอื่น",
+          "detail": ""
+        },
+        {
+          "word": "อญฺญํ",
+          "isMeaning": true,
+          "meaning": "ซึ่งบุตรอื่น",
+          "type": "สัพพนาม",
+          "matter": "อื่น",
+          "detail": ""
+        },
+        {
+          "word": "ปุตฺตํ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        },
+        {
+          "word": "ลภิ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        },
+        {
+          "word": "ฯ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "ในกาลอันเป็นส่วนอื่นอีก อ.เศรษฐีนั้น ได้แล้ว ซึ่งบุตร อื่น ฯ"
+    },
+    {
+      "id": 17,
+      "subjects": [
+        {
+          "word": "ตสฺส",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        },
+        {
+          "word": "“จุลฺลปาโลติ",
+          "isMeaning": true,
+          "meaning": "อ.จุลลปาละ ดังนี้",
+          "type": "สนธิ",
+          "matter": "จุลฺลปาโล + อิติ",
+          "detail": ""
+        },
+        {
+          "word": "นามํ",
+          "isMeaning": true,
+          "meaning": "ให้เป็นชื่อ",
+          "type": "นามนาม",
+          "matter": "ชื่อ",
+          "detail": ""
+        },
+        {
+          "word": "กตฺวา,",
+          "isMeaning": true,
+          "meaning": "กระทำแล้ว",
+          "type": "กิริยากิตก์",
+          "matter": "ทำ",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "อ.เศรษฐีนั้น กระทำแล้ว ซึ่งคำ ว่า อ.จุลลปาละ ดังนี้ ให้เป็นชื่อ ของบุตรนั้น"
+    },
+    {
+      "id": 18,
+      "subjects": [
+        {
+          "word": "อิตรสฺส",
+          "isMeaning": true,
+          "meaning": "ของบุตรนอกนี้",
+          "type": "สัพพนาม",
+          "matter": "นอกนี้",
+          "detail": ""
+        },
+        {
+          "word": "“มหาปาโลติ",
+          "isMeaning": true,
+          "meaning": "อ.มหาปาละ ดังนี้",
+          "type": "สนธิ",
+          "matter": "มหาปาโล + อิติ",
+          "detail": ""
+        },
+        {
+          "word": "นามํ",
+          "isMeaning": true,
+          "meaning": "ให้เป็นชื่อ",
+          "type": "นามนาม",
+          "matter": "ชื่อ",
+          "detail": ""
+        },
+        {
+          "word": "กริ",
+          "isMeaning": true,
+          "meaning": "กระทำแล้ว",
+          "type": "อาขยาต",
+          "matter": "ทำ",
+          "detail": ""
+        },
+        {
+          "word": "ฯ",
+          "isMeaning": false,
+          "meaning": "",
+          "type": "",
+          "matter": "",
+          "detail": ""
+        }
+      ],
+      "thaiSubject": "กระทำแล้ว ซึ่งคำ ว่า อ.มหาปาละ ดังนี้ ให้เป็นชื่อ ของบุตรนอกนี้ ฯ"
+    }
+  ]
