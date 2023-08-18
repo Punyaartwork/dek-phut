@@ -14,9 +14,10 @@ class JsonController extends Controller
  
   public function download(Request $request)
   {
-      $data = $request->only('name','email','mobile_number');
+      $data = $request->only('name','email','mobile_number' ,'datajson');
     //   $test['token'] = time();
-      $test['data'] = json_encode($data); 
+      $tojson = json_decode($data['datajson']);
+      $test['data'] = json_encode($tojson); 
       $fileName = 'pali.json';
       File::put(public_path('/upload/json/'.$fileName),$test);
       return Response::download(public_path('/upload/json/'.$fileName));
