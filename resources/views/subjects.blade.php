@@ -1,6 +1,6 @@
 <?php 
 $json = File::get('sample.json');
-$blogs = json_decode($json);
+$stories = json_decode($json);
 // $data['name']; // John Doe
 // echo $data->name;
 ?>
@@ -15,17 +15,43 @@ $blogs = json_decode($json);
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="csrf-token" content="{{ csrf_token() }}">
-  <title>Laravel Store Data To Json Format In Database - Tutsmake.com</title>
+  <title>ระบบกรอกประโยค สำหรับ พัฒนาแอปพลิเคชัน PaliLab</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
   <style>
    .error{ color:red; } 
+   #main {
+            border: 0px solid black;
+            display: flex;
+            flex-wrap: wrap;
+        }
+         
+        #main div {
+             margin-right:10px;
+             margin-bottom: 10px;
+             padding: 7px 0px 7px 0px;
+             color: #ffffff;
+
+        }
+        h1 {
+            color:#009900;
+            font-size:42px;
+            margin-left:50px;
+        }
+        h3 {
+            color:#ce0000;
+        } 
+        h5 {
+          margin-top:20px;
+        }
+        
   </style>
 </head>
  
 <body>
  
 <div class="container">
-    <h2 style="margin-top: 10px;">ตารางแก้ไขคำศัพท์</h2>
+    <h2 style="margin-top: 10px;">ระบบกรอกประโยค สำหรับ พัฒนาแอปพลิเคชัน PaliLab</h2>
+    <p>พร้อมสำหรับเอาประโยคคำแปลภาษาไทยมาใส่ ตามที่ประโยคบาลี โดยมีขั้นตอนคือ Copy ประโยคมาวางให้ครบ แล้วก็กดปุ่มดาวน์โหลดข้างล่างสุด หนึ่งครั้ง เพื่อโหลด JSON ลงเครื่อง</p>
     <br>
     <br>
  
@@ -42,10 +68,31 @@ $blogs = json_decode($json);
 
       @csrf
       <?php
+
+foreach ($stories as $story){
+  $storyid         = $story->id;
+  $storyName         = $story->storyName;
+  $chapterName         = $story->chapterName;
+  $chapterInt         = $story->chapterInt;
+  $chapterHost         = $story->chapterHost;
+  $blogs        = $story->chapters;
+  echo "<h3>หน้าที่ {$storyid} - เรื่อง {$storyName}</h3>";
+  echo "<input type='hidden' name='idChapter[]' value='$storyid'>";
+  echo "<input type='hidden' name='storyName[]' value='$storyName'>";
+  echo "<input type='hidden' name='chapterName[]' value='$chapterName'>";
+  echo "<input type='hidden' name='chapterInt[]' value='$chapterInt'>";
+  echo "<input type='hidden' name='chapterHost[]' value='$chapterHost'>";
+
 foreach ($blogs as $blog) {
         $id         = $blog->id;
         $subjects      = $blog->subjects;
-        echo "<input type='text' name='array[]' value='$id'>";
+        $thaiSubject         = $blog->thaiSubject;
+
+
+        echo "<h5>ประโยคที่ {$id}</h5>";
+        echo '<div id="main">';
+        echo "<input type='hidden' name='array{$storyid}[]' value='$id'>";
+        $subject = "";
         foreach ($subjects as $value){  
             //Go through every value in the row
             $idsubject = $value->word;
@@ -54,53 +101,79 @@ foreach ($blogs as $blog) {
             $types = $value->type;
             $matters = $value->matter;
             $details = $value->detail;
+            $subject =  $subject.' '.$idsubject;
+
             // $idsubject = $value->word;
-            echo "<tr><td><input type='text' name='word{$id}[]' value='$idsubject'></td></tr>";
-            echo "<tr><td><input type='text' name='isMeaning{$id}[]' value='".json_encode($isMeanings)."'></td></tr>";
-            echo "<tr><td><input type='text' name='meaning{$id}[]' value='$meanings'></td></tr>";
-            echo "<tr><td><input type='text' name='type{$id}[]' value='$types'></td></tr>";
-            echo "<tr><td><input type='text' name='matter{$id}[]' value='$matters'></td></tr>";
-            echo "<tr><td><input type='text' name='detail{$id}[]' value='$details'></td></tr>";
+            echo "<div style='background-color:#144b14;'><input type='text' name='word{$id}[]' style='width: ".(strlen($idsubject)*5.5)."px;color: #fff;background: #144b14;border: 0px;text-align: center;'   value='$idsubject'></div>";
+            echo "<tr><td></td></tr>";
+            echo "<tr><td><input type='hidden' name='isMeaning{$id}[]' value='".json_encode($isMeanings)."'></td></tr>";
+            echo "<tr><td><input type='hidden' name='meaning{$id}[]' value='$meanings'></td></tr>";
+            echo "<tr><td><input type='hidden' name='type{$id}[]' value='$types'></td></tr>";
+            echo "<tr><td><input type='hidden' name='matter{$id}[]' value='$matters'></td></tr>";
+            echo "<tr><td><input type='hidden' name='detail{$id}[]' value='$details'></td></tr>";
         }
-        
+        echo '</div>';
+        echo '<p>'.$subject.'</p>';
+        echo "<input type='text' class='form-control' name='arraythai{$storyid}[]' value='$thaiSubject'>";
+
+
         // $content    = $blog->content;
 //         foreach ($subjects as $subject) {
 //           // echo $subject->id
 //           $id_subject         = $subject->id;
 //           # code...
-        
+   }     
 // ?>
-<?php echo $id ?><br />
-<?php } ?> 
+<br /><br /><br />
+<?php }  ?> 
       <div class="form-group">
         <label for="formGroupExampleInput">Name</label>
         <input type="text" name="name" class="form-control" value="{{$json}}" id="formGroupExampleInput" placeholder="Please enter name">
-      </div>
-      <div class="form-group">
-        <label for="email">Email Id</label>
-        <input type="text" name="email" class="form-control" id="email" placeholder="Please enter email id">
-      </div>      
-      <div class="form-group">
-        <label for="mobile_number">Mobile Number</label>
-        <input type="text" name="mobile_number" class="form-control" id="mobile_number" placeholder="Please enter mobile number">
       </div>
       <input type="hidden" name="datajson" id="datajson">
 
 
       <div class="form-group">
-       <button type="button" class="btn btn-success" onclick="Geeks()">Submit</button>
-       <button type="submit" class="btn btn-success" >Submitto</button>
+       <button type="button" class="btn btn-success" onclick="Geeks()">DOWNLOAD</button>
+       {{-- <button type="submit" class="btn btn-success" >Submitto</button> --}}
       </div>
+      <p>กดดาวน์โหลดได้แค่ครั้งเดียวเท่านั้น</p>
     </form>
  
 </div>
 <p id="par"></p>
 
 <script type="text/javascript">
+var input = document.querySelector('input'); // get the input element
+input.addEventListener('input', resizeInput); // bind the "resizeInput" callback on "input" event
+resizeInput.call(input); // immediately call the function
+
+function resizeInput() {
+  this.style.width = this.value.length + "ch";
+}
   var k = "[";
   function Geeks() {
-      var input = document.getElementsByName('array[]');
+    var chapterId = document.getElementsByName('idChapter[]');
+    var storyName = document.getElementsByName('storyName[]');
+    var chapterName = document.getElementsByName('chapterName[]');
+    var chapterInt = document.getElementsByName('chapterInt[]');
+    var chapterHost = document.getElementsByName('chapterHost[]');
+    for (var x = 0; x < chapterId.length; x++) {
+
+      var b = chapterId[x];
+      k = k + '{"id":' + b.value + 
+      ', "storyName":"'+ storyName[x].value + 
+      '", "chapterName":"'+ chapterName[x].value + 
+      '", "chapterInt":'+ chapterInt[x].value + 
+      ', "chapterHost":"'+ chapterHost[x].value.replace(/[\r\n]/gm, ' ') + '" ,"chapters":[';
+
+      var input = document.getElementsByName('array'+b.value+'[]');
+      var thaiSubjectInput = document.getElementsByName('arraythai'+b.value+'[]');
+      console.log('1'); 
+      // เหลือทำตัวเงื่อนไข -  ###ทำไม่ได้คิดบัคบางอย่าง
+      // เหลือจับใส่ ใน Chapter เหลือบางค่าเท่านั้น ChapterName
       for (var i = 0; i < input.length; i++) {
+          console.log('1_1');  
           var a = input[i];
           k = k + '{"id":' + a.value + ',"subjects":[';
           var wordinput = document.getElementsByName('word'+a.value+'[]');
@@ -122,28 +195,38 @@ foreach ($blogs as $blog) {
             '}';
             if(j != (subinput.length-1)){
               k = k + ','
-            }
-            
-
-
+            } 
             //   k = k + "array"+ i +"[" + j + "].value= "
             //  + b.value + " ";
-          }
-          k = k + '],"thaiSubject":""}';
+          } 
+
+          k = k + '],"thaiSubject":"' +thaiSubjectInput[i].value +'"}';
           if(i != (input.length-1)){
               k = k + ','
           }
       }
-      k = k + ']'
-      var myform = document.getElementById('laravel_json');
-      var form = new FormData(myform);
-      hiddenInput = document.getElementById("datajson");
-      hiddenInput.value = k;
-      form.set("datajson", k);
-      myform.submit();
-      document.getElementById("par").innerHTML = k;
-      document.getElementById("po").innerHTML = "Output";
-  }
+      k = k + ']}';
+      if(x != (chapterId.length-1)){
+        k = k + ','
+      }
+    }
+    k = k + ']'
+    var myform = document.getElementById('laravel_json');
+    var form = new FormData(myform);
+    console.log('2'); 
+
+    hiddenInput = document.getElementById("datajson");
+    console.log('3'); 
+
+    hiddenInput.value = k;
+    console.log('4'); 
+
+    form.set("datajson", k); 
+      
+      // พอไฟล์ใหญ่แล้วมันไม่ยอมโหลดให้
+    myform.submit();
+    document.getElementById("par").innerHTML = k;
+   }
 </script>
 </body>
 </html>

@@ -35,5 +35,5 @@ Route::get('/register', function () {
     return view('register');
 });
 
-Route::get('laravel-json', [JsonController::class, 'index']);
+Route::get('/palilab/tosubject', [JsonController::class, 'index']);
 Route::post('json-file-download', [JsonController::class, 'download']);
